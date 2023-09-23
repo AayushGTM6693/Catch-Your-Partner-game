@@ -25,7 +25,7 @@ btn_male.addEventListener('click',()=>{
             selected_insect = {src,alt}
             screens[2].classList.add('up-two')
             setTimeout(createInsect,1000)
-             startGame()
+            
         })
     })
 
